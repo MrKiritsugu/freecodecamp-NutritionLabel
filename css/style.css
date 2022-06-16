@@ -38,6 +38,7 @@ p {
 .divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0px;
+    clear: right;
 }
 
 .lg {
@@ -47,4 +48,29 @@ p {
 .lg, .md {
     background-color: black;
     border: 0;
+}
+
+/* The rem unit relative to the font size of the 'html' element. */
+
+.sm-text {
+    font-size: 0.85rem;
+}
+
+/* Margins are used to create space between elements, outside of any defined borders. */
+
+.calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+}
+
+.calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+}
+.md {
+    height: 5px;
+}
+
+.indent {
+    margin-left: 1em;
 }
